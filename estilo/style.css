@@ -60,6 +60,7 @@ nav > a{
 }
 
 nav > a:hover{
+    text-decoration: underline;
     background-color: var(--cor1);
     color: blue;
 }
@@ -95,23 +96,21 @@ main h1 {
 }
 
 main h2 {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
+    font-family: var(--fonte-padrão);
+    color: var(--cor5);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
+    margin-bottom: 10px;
 }
 
 main img {
     width: 100%;
 }
 
-main img.pequena {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+main li{
+    font-weight: bolder;
 }
-
 div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
